@@ -1,0 +1,5 @@
+clc;
+clear;
+load matlab-example.mat
+bearing_roller_stress_calculate(order_bearing_interim,bearing_layout_temp,roller_modify_curve,outer_modify_curve,inner_modify_curve,Q_global,Tilt_angle_global,number_slice)
+%output:stress_outer,stress_inner,half_width_outer,half_width_inner
